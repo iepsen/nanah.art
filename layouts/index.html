@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div id="profileContainer">
+      <div id="profile">
+        <header>
+          <!-- avator -->
+          <div class="avatar">
+            <img src="/img/{{ .Site.Params.avatar }}" alt="avatar">
+          </div>
+          <!-- author -->
+          <h1 class="author">{{ .Site.Params.Author }}</h1>
+        </header>
+        <!-- description -->
+        <p>
+          {{ .Site.Params.description }}
+        </p>
+        <!-- navigation -->
+        <nav>
+          <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Pre }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </div>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

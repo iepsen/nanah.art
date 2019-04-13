@@ -1,4 +1,4 @@
-baseurl = "https://nanah.art/"
+baseurl = "//nanah.art/"
 title = "Nanah Soares"
 theme = "pulp"
 canonifyurls = true

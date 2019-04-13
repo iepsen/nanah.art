@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//nanah.art/</loc>
+    <loc>//nanah.art/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//nanah.art/series/</loc>
+    <loc>//nanah.art/</loc>
     <priority>0</priority>
   </url>
   

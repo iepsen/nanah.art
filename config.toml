@@ -1,0 +1,52 @@
+baseurl = "https://nanah.art/"
+title = "Nanah Soares"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Nanah Soares"
+    avatar = "avatar.png"
+    favicon = "favicon.ico"
+    description = """
+        Enquanto o portfolio não fica pronto,
+        você pode me encontrar nos links abaixo.
+    """
+    publicationYear = "2019"
+    listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    singlePageDateFormat = "January 2, 2006"
+    custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    name = "Instagram"
+    pre = "<i class='fab fa-instagram fa-lg'></i>" #Choose your favorite font from Font Awesome
+    url = "https://instagram.com/nanah.art"
+    weight = 10
+
+[[menu.main]]
+    name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/nanahxis"
+    weight = 20
+
+[[menu.main]]
+    name = "Pinterest"
+    pre = "<i class='fab fa-pinterest fa-lg'></i>"
+    url = "https://pinterest.com/nanahxis/"
+    weight = 30
+
+[[menu.main]]
+    name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:nanahxis@gmail.com"
+    weight = 40

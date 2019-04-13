@@ -1,5 +1,5 @@
 baseurl = "//nanah.art/"
-title = "Nanah Soares"
+title = "nanah.art"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true

@@ -26,25 +26,31 @@ publishDir = "docs"
     section = ["JSON", "HTML"]
 
 [[menu.main]]
+    name = "Medium"
+    pre = "<i class='fab fa-medium fa-lg'></i>"
+    url = "https://nanahxis.medium.com/"
+    weight = 10
+
+[[menu.main]]
     name = "Instagram"
     pre = "<i class='fab fa-instagram fa-lg'></i>" #Choose your favorite font from Font Awesome
     url = "https://instagram.com/nanah.art"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     name = "Twitter"
     pre = "<i class='fab fa-twitter fa-lg'></i>"
     url = "https://twitter.com/nanahxis"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     name = "Pinterest"
     pre = "<i class='fab fa-pinterest fa-lg'></i>"
-    url = "https://pinterest.com/nanahxis/"
-    weight = 30
+    url = "https://pinterest.com/nanahxis"
+    weight = 40
 
 [[menu.main]]
     name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:nanahxis@gmail.com"
-    weight = 40
+    weight = 50
